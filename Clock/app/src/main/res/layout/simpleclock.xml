@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5940B"
+xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:background="#CE0505"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/footer_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:background="#F5940B"
+            android:textColor="#CE0505"
+            android:text="@string/_24h" />
+
+        <Button
+            android:id="@+id/footer_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:background="#F5940B"
+            android:textColor="#CE0505"
+            android:text="@string/_12h" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="50dp"
+        android:layout_above="@+id/footer"
+        tools:layout_editor_absoluteY="74dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="223dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="44dp"
+                android:text="@string/world_clock"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#CE0505"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="72dp"
+                android:text="@string/sydney"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:textColor="#CE0505"
+                android:textStyle="bold"
+                android:layout_marginStart="28dp"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:contentDescription="@string/todo"
+                android:layout_marginStart="28dp"
+                ads:srcCompat="@drawable/opera" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/paris"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:textColor="#CE0505"
+                android:textStyle="bold"
+                android:layout_marginStart="28dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="86dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/tower"
+                ads:srcCompat="@drawable/paris" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/london"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:textColor="#CE0505"
+                android:textStyle="bold"
+                android:layout_marginStart="28dp"/>
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="86dp"
+                android:layout_height="80dp"
+                ads:srcCompat="@drawable/londoneye"
+                android:layout_marginStart="28dp"
+                android:contentDescription="@string/londoneye" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/bangkok"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/date3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:textColor="#CE0505"
+                android:textStyle="bold"
+                android:layout_marginStart="28dp"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="86dp"
+                android:layout_height="80dp"
+                ads:srcCompat="@drawable/buddha"
+                android:layout_marginStart="28dp"
+                android:contentDescription="@string/buddha" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="65dp"
+                android:text="@string/seoul"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/date4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:typeface="serif"
+                android:textColor="#CE0505"
+                android:textStyle="bold"
+                android:layout_marginStart="28dp"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="86dp"
+                android:layout_height="80dp"
+                ads:srcCompat="@drawable/temple"
+                android:layout_marginStart="28dp"
+                android:contentDescription="@string/temple" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

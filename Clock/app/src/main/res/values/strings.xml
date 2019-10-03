@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="world_clock">World Clock</string>
+    <string name="sydney">Sydney</string>
+    <string name="paris">Paris</string>
+    <string name="london">London</string>
+    <string name="bangkok">Bangkok</string>
+    <string name="_12h">12H</string>
+    <string name="_24h">24H</string>
+    <string name="seoul">Seoul</string>
+    <string name="changetime">changetime</string>
+    <string name="_2_46">2:46</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="paristime">TextView</string>
+    <string name="tower">TODO</string>
+    <string name="londontime">TextView</string>
+    <string name="textView9">TextView</string>
+    <string name="date1">TextView</string>
+    <string name="londoneye">TODO</string>
+    <string name="buddha">TODO</string>
+    <string name="temple">TODO</string>
+    <string name="parist">TODO</string>
+    <string name="londeye">TODO</string>
+    <string name="thailand">TODO</string>
+    <string name="seoultemple">TODO</string>
+</resources>
