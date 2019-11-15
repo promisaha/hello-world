@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/search_view"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/border_round_white"
+            android:layout_margin="10dp"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:inputType="textNoSuggestions"
+                android:hint="Search here"
+                android:layout_toLeftOf="@+id/search_item"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/editText_search"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:id="@+id/search_item"
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_search"
+                android:layout_height="40dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycler_view"
+        android:layout_below="@+id/search_view"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/loading_progress"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
